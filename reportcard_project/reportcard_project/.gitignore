@@ -1,7 +1,20 @@
+# --- Python / Django ---
 venv/
-*.pyc
+.venv/
+env/
 __pycache__/
+*.pyc
 db.sqlite3
 .env
+
+# --- React (Nested in reportcard_project) ---
+# This covers the node_modules regardless of where they are
+node_modules/
 reportcard_project/frontend/node_modules/
 reportcard_project/frontend/build/
+reportcard_project/frontend/.env.local
+
+# --- OS / IDE ---
+.DS_Store
+.vscode/
+.idea/

@@ -25,7 +25,12 @@ SECRET_KEY = 'django-insecure-g3uuj&i(hct1foer-=w_qth18jpg9y+aqhp7*x2qrewpkh3zc$
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['.vercel.app']
+
+
+CSRF_TRUSTED_ORIGINS = [
+    "https://*.ngrok-free.app",
+]
 
 
 # Application definition
@@ -127,6 +132,4 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-CORS_ALLOWED_ORIGINS = [
-    "https://your-react-app.vercel.app",
-]
+CORS_ALLOW_ALL_ORIGINS = True
