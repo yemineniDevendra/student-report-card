@@ -4,7 +4,7 @@ import axios from 'axios';
 // Professional Step: Set the base URL here. 
 // When you get your real Render URL, replace the string below.
 // App.js
-const API_BASE_URL = "https://reportcard-back.vercel.app/api/students/";
+const API_BASE_URL = "https://dev081104.pythonanywhere.com/api/students/";
 // Example for deployment: "https://your-backend-name.onrender.com/api/students/"
 
 function App() {
