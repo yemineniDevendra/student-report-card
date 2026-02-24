@@ -30,6 +30,7 @@ ALLOWED_HOSTS = ['.vercel.app']
 
 CSRF_TRUSTED_ORIGINS = [
     "https://*.ngrok-free.app",
+    "https://report-card-front.vercel.app",
 ]
 
 
